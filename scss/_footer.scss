@@ -1,0 +1,103 @@
+// footer
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: -335rem;
+  height: 453px;
+  background-color: #000;
+  border-radius: 0px 158px 0px 0px;
+  .container_footer {
+    display: flex;
+    justify-content: space-between;
+    .text-part {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
+      gap: 2rem;
+      margin: 8rem 7rem;
+      .title {
+        max-width: 439px;
+        color: #fff;
+        font-family: "Playfair Display", serif;
+      }
+    }
+    .img-part {
+      width: 484px;
+      margin: 8rem 14rem;
+      .text_box {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 5;
+        margin: -27rem 3rem;
+        padding: 1rem 1.5rem;
+        background: #fff;
+        color: #414141;
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 197px;
+        height: 84px;
+        .text {
+          &_1 {
+            line-height: 22px;
+            font-weight: 700;
+          }
+          &_2 {
+            line-height: 22px;
+          }
+          &_3 {
+            cursor: pointer;
+            color: #51a0dc;
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+    .inner_text {
+      color: #fff;
+      line-height: 26px;
+      letter-spacing: 0.32px;
+      width: 439px;
+    }
+    .sign {
+      color: #fff;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.32px;
+      font-weight: 600;
+    }
+    .inner_mail {
+      height: 52px;
+      display: flex;
+      .input {
+        background-color: #000;
+        font-size: 16px;
+        color: #fff;
+        margin-right: -10px;
+        width: 263px;
+        height: 52px;
+        border: 1px solid #fff;
+        line-height: 26px;
+        letter-spacing: 0.32px;
+        padding: 14px;
+      }
+      .mail_button {
+        cursor: pointer;
+        font-size: 16px;
+        background-color: #fff;
+        border: 1px solid #fff;
+        width: 143px;
+        height: 52px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0.32px;
+        transition: all 0.5s;
+        &:hover {
+          background-color: #000;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

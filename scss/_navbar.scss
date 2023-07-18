@@ -1,0 +1,50 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  .nav {
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 5rem;
+    li {
+      a {
+        border-bottom: 3px transparent solid;
+        padding: 0.5rem;
+        transition: border-color 0.5s;
+        color: #331b3b;
+        &:hover {
+          border-color: $primary-color;
+        }
+        &.active {
+          border-bottom: 2px $primary-color solid;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .social {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 4rem;
+    margin-right: 5rem;
+    gap: 5rem;
+    z-index: 1;
+    a {
+      border: #331b3b 2px solid;
+      border-radius: 60px 40px;
+      padding: 1rem;
+      font-weight: 700;
+      color: #331b3b;
+    }
+  }
+  .brand-name {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-top: 4rem;
+    text-align: center;
+    z-index: 5;
+    a {
+      color: #331b3b;
+    }
+  }
+}
